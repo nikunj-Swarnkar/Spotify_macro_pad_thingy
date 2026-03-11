@@ -26,7 +26,7 @@ Schematic
 <img src=assets/schematic.png alt="Schematic" width="300"/>
 
 PCB
-<img src=assets/pcb.png alt="Schematic" width="300"/>
+<img src=assets/PCB.png alt="Schematic" width="300"/>
 
 MX styled keys used 
 
