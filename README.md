@@ -41,7 +41,7 @@ I might add more in the future! That's it for now
 
 ## BOM:
 Here should be everything you need to make this hackpad
-
+  
 - 6x Cherry MX Switches
 - 6x DSA Keycaps
 - 4x M3x5x4 Heatset inserts
@@ -52,7 +52,3 @@ Here should be everything you need to make this hackpad
 - 1x XIAO RP2040
 - 1x Case (2 printed parts)
 
-
-Honestly I'm not quite too sure what to add here. Favourite meme? a joke?? Uhhh you can imagine it
-
-Oh fun fact: I built mine in SF the day before github universe LOL
