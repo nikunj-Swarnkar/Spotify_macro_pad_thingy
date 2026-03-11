@@ -14,7 +14,7 @@ made with love.
 Everything fits together using 4 M3 Bolts and heatset inserts. 4 for the case
 it has two part cover with main body and front lid
 
-<img src=assets/cad.png alt="Schematic" width="500"/>
+<img src=assets/hackerpadd.png alt="Schematic" width="500"/>
 
 Made in Fusion360.
 
