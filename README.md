@@ -1,7 +1,7 @@
 # Hackerpad 9000
 
 hacker pad 9000 is a custom key macro pad with two rotating dials and 6 customisable keys with a OLED screen 
-made with love.
+made with love , basicly my ittration for spotify car thing for ur desk !.
 
 ## Features:
 - deal part case w easy to assemble.
@@ -31,13 +31,6 @@ PCB
 MX styled keys used 
 
 ## Firmware Overview
-This hackpad uses [QMK](https://qmk.fm/) firmware for everything. 
-
-- the rotary encoder changes volume. and the other one changes the brightness .
-- The 6 keys currently act as macros 
-- The OLED is a cat! orrr spotify now playing with one more script .
-
-I might add more in the future! That's it for now
 
 ## BOM:
 Here should be everything you need to make this hackpad
