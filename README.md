@@ -1,6 +1,14 @@
-# Spotify marcro-pad thingy
+# Spotify Marcro-pad Thingy
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Spotify__marcro__pad__thingy-181717?logo=github)](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy)
+[![GitHub Stars](https://img.shields.io/github/stars/nikunj-Swarnkar/Spotify_marcro_pad_thingy?style=flat&logo=github)](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/nikunj-Swarnkar/Spotify_marcro_pad_thingy?style=flat&logo=github)](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/forks)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/LICENSE)
+[![CircuitPython](https://img.shields.io/badge/CircuitPython-KMK-blueviolet?logo=python)](https://github.com/KMKfw/kmk_firmware)
 
 A custom key macropad with two rotating dials, 6 customisable keys, and an OLED screen. Basically my iteration of the Spotify car thing — but for your desk.
+
+**Project by [nikunj-Swarnkar](https://github.com/nikunj-Swarnkar)** — Firmware by [Nitin-2468-dev](https://github.com/Nitin-2468-dev)
 
 <img src="assets/key_mapping.png" alt="Key mapping" width="500"/>
 
@@ -42,7 +50,7 @@ Uses MX-style key switches.
 
 ## Firmware Overview
 
-The Hackerpad 9000 runs **KMK firmware** on a **Seeed XIAO RP2040**, paired with a **Python bridge application** that connects Spotify playback data to the keyboard over USB. The device behaves like a mini StreamDeck dedicated to music control.
+The Spotify Marcro-pad Thingy runs **[KMK firmware](https://github.com/KMKfw/kmk_firmware)** on a **[Seeed XIAO RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/)**, paired with a **Python bridge application** that connects Spotify playback data to the keyboard over USB. The device behaves like a mini StreamDeck dedicated to music control.
 
 ### Playback Controls
 
@@ -200,43 +208,31 @@ Written using **KMK (Keyboard Module Kit)** on CircuitPython. Main file: `CIRCUI
 
 ## Folder Structure
 
-```
-.
-├── LICENSE
-├── README.md
-│
-├── CIRCUITPY
-│   ├── code.py
-│   ├── display_manager.py
-│   ├── duck_animation.py
-│   ├── rgb_manager.py
-│   │
-│   └── lib
-│       ├── adafruit_ssd1306.mpy
-│       ├── neopixel.mpy
-│       └── kmk/
-│
-└── spotify_bridge
-    ├── spotify_bridge.exe
-    ├── README.md
-    │
-    ├── code
-    │   ├── build_exe.py
-    │   ├── oled_test_app.py
-    │   └── spotify_bridge.py
-    │
-    └── res
-        ├── config.json.eg
-        ├── Duck.gif
-        └── oled_test_app.exe
-```
+| Path | Description |
+| ---- | ----------- |
+| [`LICENSE`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/LICENSE) | MIT License |
+| [`README.md`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/README.md) | This file |
+| [`CIRCUITPY/`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/tree/main/CIRCUITPY) | Firmware files copied to the board |
+| [`CIRCUITPY/code.py`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/CIRCUITPY/code.py) | Main firmware entry point |
+| [`CIRCUITPY/display_manager.py`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/CIRCUITPY/display_manager.py) | OLED display logic |
+| [`CIRCUITPY/duck_animation.py`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/CIRCUITPY/duck_animation.py) | Idle duck animation |
+| [`CIRCUITPY/rgb_manager.py`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/CIRCUITPY/rgb_manager.py) | RGB LED control |
+| [`CIRCUITPY/lib/`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/tree/main/CIRCUITPY/lib) | CircuitPython libraries |
+| [`spotify_bridge/`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/tree/main/spotify_bridge) | PC bridge application |
+| [`spotify_bridge/spotify_bridge.exe`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/spotify_bridge/spotify_bridge.exe) | Compiled bridge (no Python required) |
+| [`spotify_bridge/code/spotify_bridge.py`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/spotify_bridge/code/spotify_bridge.py) | Bridge source code |
+| [`spotify_bridge/code/oled_test_app.py`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/spotify_bridge/code/oled_test_app.py) | OLED test utility |
+| [`spotify_bridge/code/build_exe.py`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/spotify_bridge/code/build_exe.py) | Script to compile the bridge |
+| [`spotify_bridge/res/config.json.eg`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/spotify_bridge/res/config.json.eg) | Example Spotify API config |
+| [`spotify_bridge/res/oled_test_app.exe`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/spotify_bridge/res/oled_test_app.exe) | Compiled OLED test utility |
+| [`spotify_bridge/res/Duck.gif`](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/spotify_bridge/res/Duck.gif) | Duck idle animation asset |
 
 ---
 
 ## Installing Firmware
 
 1. Install CircuitPython for the XIAO RP2040:
-   https://wiki.seeedstudio.com/XIAO-RP2040-with-CircuitPython/
+   [XIAO RP2040 CircuitPython Guide](https://wiki.seeedstudio.com/XIAO-RP2040-with-CircuitPython/)
 
 2. Copy firmware files to the board at `CIRCUITPY/`.
 
@@ -262,7 +258,7 @@ python spotify_bridge.py
 
 ### Spotify API Setup
 
-1. Create an application at https://developer.spotify.com/dashboard
+1. Create an application at the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
 2. Add the redirect URI: `http://localhost:8888/callback`
 3. Copy your credentials into `spotify_bridge/res/config.json`
 
@@ -305,4 +301,4 @@ python spotify_bridge.py
 
 ## License
 
-MIT License
+[MIT License](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/main/LICENSE)
