@@ -4,7 +4,7 @@ A custom **Spotify control macropad** built using the **Seeed XIAO RP2040**, run
 
 The device acts as a **hardware Spotify controller + display**, showing live song information, album art, and animations on a small OLED screen.
 
-- Made by Nitin Swarnkar 
+- Made by [Nitin Swarnkar](https://github.com/Nitin-2468-dev)
 
 ---
 
@@ -60,7 +60,7 @@ The bridge software connects Spotify playback data to the keyboard firmware thro
 
 ### Display
 
-<video controls src="20260313-0948-23.8122373.mp4" title="Title"></video>
+https://github.com/user-attachments/assets/8e71572c-191a-4422-8621-966e16f79e89
 
 - **0.91" SSD1306 OLED display (128×32)**
 
@@ -177,7 +177,7 @@ The 128×32 OLED shows several screens.
 
 ### Spotify screen
 
-![alt text](image.png)
+![alt text](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/8d25a37261554aaab6021cbf5d8dac0a1f67ea21/assets/show-case.png)
 
 ```text
 Spotify
@@ -203,7 +203,7 @@ Appears when adjusting volume.
 
 ### Idle screen
 
-![alt text](image-1.png)
+![alt text](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/8d25a37261554aaab6021cbf5d8dac0a1f67ea21/assets/Duck.png)
 
 ```text
 Duck animation
@@ -213,6 +213,8 @@ Displayed when nothing is playing.
 
 
 ## Album Art Rendering
+
+![Cover](https://github.com/nikunj-Swarnkar/Spotify_marcro_pad_thingy/blob/8d25a37261554aaab6021cbf5d8dac0a1f67ea21/assets/image.png)
 
 The bridge downloads album art from Spotify. The image is:
 
