@@ -1,0 +1,5 @@
+{
+  "CLIENT_ID": "2adf321701f14fe8817f8ce4e47b175c",
+  "CLIENT_SECRET": "219dcfd06fe447318f2feca59ecb49a9",
+  "REDIRECT_URI": "http://127.0.0.1:8888/callback"
+}
